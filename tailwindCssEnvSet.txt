@@ -1,0 +1,18 @@
+1. PS C:\Users\afrin\Desktop\tailwindCss> npm init -y
+2. PS C:\Users\afrin\Desktop\tailwindCss> npm install -D tailwindcss postcss autoprefixer vite  
+3. PS C:\Users\afrin\Desktop\tailwindCss> npx tailwindcss init -p
+4. PS C:\Users\afrin\Desktop\tailwindCss> history
+5. PS C:\Users\afrin\Desktop\tailwindCss> npm run start
+6. create a file for index.html and create a folder for css and in the css file place tailwind.css file. in the tailwind.css file have to put the 3 directive must these are: @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Special Note: 
+i) in the file of-> tailwind.config.js put the asteric(*) in the content section. as like: content: ['*'],
+
+ii) in the file of-> package.json put "start" instead of "test" also put the "vite" instead of "echo \"Error: no test specified\" && exit 1"
+ 	like: 
+	before:   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	after:
